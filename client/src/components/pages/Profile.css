@@ -1,0 +1,7 @@
+.Button-invisible {
+  background: none;
+  border: none;
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}

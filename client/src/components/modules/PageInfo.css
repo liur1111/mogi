@@ -1,0 +1,53 @@
+.PageInfo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 19vw;
+  margin: var(--pageInfoMargins);
+}
+.PageInfo-container a {
+  text-decoration: none;
+}
+
+.PageInfo-pic {
+  background-color: azure;
+}
+
+.PageInfo-bio-container {
+  padding-left: 5px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.PageInfo-bio-info {
+  margin: 2vh 0 0 0;
+  color: rgb(80, 80, 80);
+  background-color: rgba(255, 255, 255, 0);
+  width: 90%;
+}
+
+.PageInfo-stats-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.PageInfo-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9vh;
+  font-weight: bold;
+  overflow-wrap: break-all;
+  color: rgb(80, 80, 80);
+}
+
+.PageInfo-membercount {
+  color: rgb(145, 145, 145);
+}
+
+.PageInfo-bio-container a {
+  text-decoration: underline;
+  text-decoration-color: rgb(211, 211, 211);
+}

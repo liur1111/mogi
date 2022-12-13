@@ -1,0 +1,27 @@
+.Explore-container {
+  margin: 6vh 16vw 0 2vw;
+}
+
+.Explore-search-container {
+  display: flex;
+  gap: 1vw;
+  padding: 0 0 4vh 0;
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+.Explore-search-input {
+  border: 2px solid rgb(196, 196, 196);
+  border-radius: 8px;
+  padding: 1em;
+}
+.Explore-search-button {
+  background-color: gray;
+  color: white;
+  border-radius: 8px;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.Explore-results {
+  margin: 4vh 0;
+  display: flex;
+}

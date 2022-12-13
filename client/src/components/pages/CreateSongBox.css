@@ -1,0 +1,44 @@
+.SongBox-text {
+  background-color: #0dd983;
+}
+
+.Songbox-input-container {
+  width: 40%;
+  position: relative;
+  background-color: rgb(233, 233, 233);
+  border-radius: 1vw;
+  padding: 1% 2%;
+}
+
+.Songbox-space {
+  margin-bottom: 4h;
+}
+
+.Songbox-input {
+  padding-left: 1vw;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0.5vw;
+  width: 80%;
+  height: 3em;
+  border: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.Songbox-info-container {
+  margin: 8vh 16vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4vh;
+}
+
+.Songbox-outline-container {
+  margin: 8vh 16vw;
+  position: sticky;
+  height: 80%;
+  font-size: 36px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  color: #222222;
+}

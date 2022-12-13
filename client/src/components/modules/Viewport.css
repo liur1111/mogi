@@ -1,0 +1,11 @@
+/*
+* Used to create the main mogi site on the right side of the navbar.
+* Makes it much easier to think about distances without having to worry about going beyond navbar.
+*/
+.Viewport {
+  margin-left: var(--navbar);
+  padding: 0 4vw;
+  height: 100vh;
+  background-color: rgb(250, 250, 250);
+  overflow: scroll;
+}

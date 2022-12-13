@@ -1,0 +1,17 @@
+.PageContent-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+  margin: var(--pageContentMargins);
+}
+
+.NoBoxes {
+  display: flex;
+  justify-content: center;
+  margin: 8vh;
+  color: rgb(138, 138, 138);
+}
+
+.FollowButton {
+  cursor: pointer;
+}

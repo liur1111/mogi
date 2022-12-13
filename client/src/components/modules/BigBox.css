@@ -1,0 +1,21 @@
+.BigBox {
+  background-color: azure;
+  width: 20%;
+  position: relative;
+  border-radius: 1vw;
+}
+
+.BigBox:after {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.BigBox-content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

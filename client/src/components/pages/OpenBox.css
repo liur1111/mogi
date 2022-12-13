@@ -1,0 +1,62 @@
+.OpenBox-container {
+  height: 80%;
+  margin: 8vh 20vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  box-shadow: 2px 2px 16px rgb(223, 223, 223);
+  border-radius: 16px;
+}
+
+.OpenBox {
+  width: 60vh;
+  position: relative;
+  border-radius: 1vw;
+}
+
+.OpenBox:after {
+  content: "";
+  /* display: block; */
+  padding-top: 100%;
+  display: block;
+  font-size: 36px;
+}
+
+.OpenBox-content {
+  overflow-wrap: anywhere;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.InfoBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1vw;
+  width: 60vh;
+  position: relative;
+  border-radius: 1vw;
+  color: rgb(80, 80, 80);
+  font-size: 80%;
+}
+
+.InfoBox-info {
+  color: rgb(126, 126, 126);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 4px;
+  padding: 0.25em 0.5em;
+}
+
+.InfoBox a {
+  text-decoration: none;
+  color: rgb(55, 55, 55);
+}

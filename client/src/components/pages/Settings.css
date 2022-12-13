@@ -1,0 +1,10 @@
+.Button-logout {
+  margin-left: 5%;
+  border: 0;
+}
+
+.logoutLink {
+  color: black;
+  text-decoration: none;
+  font-size: 36px;
+}

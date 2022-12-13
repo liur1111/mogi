@@ -1,0 +1,149 @@
+.text {
+  background-color: #ed6464;
+}
+.text-disabled {
+  background-color: #e6a9a9;
+}
+
+.image {
+  background-color: #ffa14a;
+}
+
+.link {
+  background-color: #ffd632;
+}
+
+.link-disabled {
+  background-color: #f3e4a9;
+}
+
+.song {
+  background-color: #0dd983;
+}
+.song-disabled {
+  background-color: #a2e9cb;
+}
+
+.code {
+  background-color: #61b3ff;
+}
+
+.ghost {
+  background-color: #525252;
+}
+
+.ghost-disabled {
+  background-color: #bdbcbc;
+}
+
+.page {
+  background-color: #eeeeee;
+  color: #171717;
+}
+.page-disabled {
+  background-color: #f0f0f0;
+  color: #a5a5a5;
+}
+
+.page-text {
+  color: rgb(0, 0, 0);
+}
+
+.Outline-container {
+  position: sticky;
+  height: 80%;
+  margin: 4vh 14vw;
+  font-size: 36px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  color: #222222;
+}
+
+.Outline-box-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  gap: 4vw 2vw;
+  margin: 4vh 6vw;
+  padding: 2vw;
+  color: white;
+}
+
+/**
+/* FROM Box.css
+*/
+
+.Item {
+  width: 20vh;
+  position: relative;
+  border-radius: 4%;
+  box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.098);
+}
+
+.Item:after {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.Item-content {
+  overflow-wrap: break-word;
+  text-decoration: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.Page-content {
+  overflow-wrap: break-word;
+  text-decoration: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: rgb(36, 36, 36);
+}
+
+.Page {
+  width: 100%;
+  position: relative;
+  border-radius: 1vh;
+  justify-self: center;
+}
+
+.Page:after {
+  content: "";
+  display: block;
+  padding-top: 25%;
+}
+
+.pageTextColor {
+  color: black;
+}
+
+.Submit-button {
+  padding: 0px 16px;
+  border-radius: 0.5vw;
+  height: 3em;
+  border-style: none;
+  cursor: pointer;
+}
+
+.Submit-button-disabled {
+  padding: 0px 16px;
+  border-radius: 0.5vw;
+  height: 3em;
+  border-style: none;
+  cursor: not-allowed;
+}
+
+.Submit-color-default {
+  color: white;
+}

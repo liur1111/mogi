@@ -1,0 +1,44 @@
+.Textbox-outline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8vh 16vw;
+  position: sticky;
+  height: 80%;
+  font-size: 36px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #222222;
+}
+
+.Textbox-info-container {
+  width: 100%;
+  margin: 8vh 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4vh;
+}
+
+/* .Textbox-input-container {
+  background-color: rgb(233, 233, 233);
+  border-radius: 1vw;
+  padding: 1% 2%;
+  width: 100%;
+} */
+
+.Textbox-input {
+  box-sizing: border-box;
+  padding: 1em 1em;
+  resize: none;
+  font-family: Arial;
+  color: rgb(65, 65, 65);
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 40%;
+  height: 100%;
+  overflow-y: scroll;
+  outline: none;
+}
